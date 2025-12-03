@@ -158,14 +158,17 @@ pre[class*="language-"] {
 	color: #00bfff
 }
 
-.token.self {
+.token.self,
+.token.product_type {
 	color: #98f5ff;
 }
  
 .token.class-name,
 .token.boolean, 
 .token.variable, 
-.token.slot {
+.token.slot,
+.token.module_name,
+.token.product_name {
     color: #4eee94;
 }
 
