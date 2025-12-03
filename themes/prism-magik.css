@@ -41,11 +41,11 @@ pre[class*="language-"] {
 }
 
 .token.property {
-  color: #f08080
+	color: #f08080
 }
 
 .token.function {
-    color: #daa520;
+	color: #daa520;
 }
 
 .token.prolog,
@@ -112,7 +112,7 @@ pre[class*="language-"] {
 }
 
 .token.self,
-.token-product_type {
+.token.product-type {
 	color: #98f5ff;
 }
 
@@ -120,9 +120,9 @@ pre[class*="language-"] {
 .token.boolean,
 .token.variable,
 .token.slot,
-.token.module_name,
-.token.product_name {
-    color: #4eee94;
+.token.module-name,
+.token.product-name {
+	color: #4eee94;
 }
 
 .token.symbol,
@@ -135,10 +135,14 @@ pre[class*="language-"] {
 	color: #deb887;
 }
 
-.token.number,
+.token.number {
+	color: #ff995e;
+}
+
 .token.punctuation,
 .token.operator,
-.token.declaration {
+.token.declaration,
+.token.module-version {
 	color: #ffffff;
 }
 
